@@ -4,6 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $errors = [];
     $uploadDir = 'cv/';
 
+    
     $motivation = isset($_POST['motivation']) ? htmlspecialchars(trim($_POST['motivation'])) : '';
 
 
